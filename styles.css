@@ -1,0 +1,18 @@
+@media (orientation: landscape) {
+    /* Styles for landscape orientation */
+    .floating-img{
+        height: 30vh; 
+        width: auto; 
+        object-fit: cover;
+    }
+}
+
+@media (orientation: portrait) {
+    /* Styles for portrait orientation */
+    .floating-img{
+        height: 30vw; 
+        width: auto; 
+        object-fit: cover;
+    }
+}
+
